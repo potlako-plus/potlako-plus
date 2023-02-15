@@ -176,6 +176,14 @@ DATABASES = {
         'PASSWORD': DB_PASSWORD,
         'HOST': HOST,  # Or an IP Address that your DB is hosted on
         'PORT': PORT,
+        },
+    'backup06': {
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'potlako_live_06',
+        'USER': 'root',
+        'PASSWORD': 'cc3721bb',
+        'HOST': '127.0.0.1',  # Or an IP Address that your DB is hosted on
+        'PORT': '5001',
         }
     }
 

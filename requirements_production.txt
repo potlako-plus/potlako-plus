@@ -53,7 +53,6 @@ django-crispy-forms
 djangorestframework
 Fabric3
 ipython
-mysqlclient
 xhtml2pdf
 django_q
 pycryptodome
