@@ -322,3 +322,18 @@ CORS_ALLOWED_ORIGIN_REGEXES = [
     'http://localhost:8000',
     'https://potlako-plus-dev.bhp.org.bw'
     ]
+
+
+# url to redis
+CACHEOPS_REDIS = "redis://localhost:6379/1"
+
+CACHEOPS = {
+
+    'auth.user': {'ops': 'all', 'timeout': 60*15},
+    'auth.*': {'ops': 'all', 'timeout': 60*15},
+    'potlako_subject.models.onschedule.*': None,
+    'edc_appointment.models.appointment.*': None,
+    'potlako_subject.models.navigation_summary_and_plan.*': None,
+    '*.*': {'ops': 'all', 'timeout': 60*60*24}, 
+    '*.*': {'ops': 'get', 'timeout': 60*60*24}, 
+}

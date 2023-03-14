@@ -59,3 +59,4 @@ xhtml2pdf
 django_q
 pycryptodome
 xlwt
+django-cacheops==6.2
