@@ -120,7 +120,7 @@ INSTALLED_APPS = [
     'potlako.apps.EdcFacilityAppConfig',
     'potlako.apps.EdcIdentifierAppConfig',
     'potlako.apps.EdcSmsAppConfig',
-    ]
+    'cacheops',]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
