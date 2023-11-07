@@ -47,7 +47,7 @@ git+https://github.com/potlako-plus/potlako-subject.git@develop#egg=potlako-subj
 git+https://github.com/potlako-plus/potlako-validations.git@0.1.2#egg=potlako-validations
 git+https://github.com/potlako-plus/potlako-visit-schedule.git@0.1.1#egg=potlako-visit-schedule
 git+https://github.com/potlako-plus/potlako-reference.git@0.1.1#egg=potlako-reference
-git+https://github.com/potlako-plus/potlako-rest-api.git@develop#egg=potlako-reference
+git+https://github.com/potlako-plus/potlako-rest-api.git@develop#egg=potlako-rest-api
 django-multiselectfield
 django-cors-headers
 django-crispy-forms
