@@ -1,0 +1,214 @@
+anyio==3.7.1
+appnope==0.1.3
+arabic-reshaper==3.0.0
+argon2-cffi==21.3.0
+argon2-cffi-bindings==21.2.0
+arrow==1.2.3
+asgiref==3.7.2
+asn1crypto==1.5.1
+asttokens==2.2.1
+async-lru==2.0.4
+attrs==23.1.0
+Babel==2.12.1
+backcall==0.2.0
+bcrypt==4.0.1
+beautifulsoup4==4.12.2
+bleach==6.0.0
+blessed==1.20.0
+certifi==2023.5.7
+cffi==1.15.1
+charset-normalizer==3.2.0
+click==8.1.4
+comm==0.1.4
+cryptography==41.0.2
+cssselect2==0.7.0
+debugpy==1.6.7
+decorator==5.1.1
+defusedxml==0.7.1
+#Django==3.1.14
+django-audit-fields==0.3.9
+django-cacheops==7.0.1
+django-cors-headers==4.2.0
+django-crispy-forms==2.0
+django-crypto-fields @ git+https://github.com/botswana-harvard/django-crypto-fields.git@f975c27f7ea69ca274976a3868c34f2d8983d550
+django-debug-toolbar==4.1.0
+django-extensions==3.2.3
+django-ipware==5.0.0
+django-js-reverse==0.9.1
+django-logentry-admin==1.1.0
+django-multiselectfield==0.1.12
+django-picklefield==3.1
+django-q==1.3.9
+django-queryable-properties==1.8.4
+django-revision @ git+https://github.com/botswana-harvard/django-revision.git@38e3c9f8c07de4977fdd8f73166562253a9ac281
+django-simple-history==3.3.0
+djangorestframework==3.14.0
+docutils==0.20.1
+edc-action-item @ git+https://github.com/botswana-harvard/edc-action-item.git@022e2a98a76a8c0f506733e8e196667331e77a5b
+edc-appointment @ git+https://github.com/botswana-harvard/edc-appointment.git@5c8a64f53b54db7a057a296c769d4e69f3400a3b
+edc-base @ git+https://github.com/botswana-harvard/edc-base.git@08a64f9aa1a17809f8c3bcc6e1ccdb247cdd9880
+edc-calendar @ git+https://github.com/botswana-harvard/edc-calendar@ff5c634735cb3e5a5bdd59abbd0942dfddc5697f
+edc-call-manager @ git+https://github.com/botswana-harvard/edc-call-manager.git@bacb671c8453bdd7b099175bbe83b9bbc6ab7780
+edc-consent @ git+https://github.com/botswana-harvard/edc-consent.git@90b71fd80bc9191268d32215b0d20230eb845ddd
+edc-constants @ git+https://github.com/botswana-harvard/edc-constants.git@70b03cc3c135f242de543123b3c7c9dfce284e67
+edc-dashboard @ git+https://github.com/botswana-harvard/edc-dashboard.git@907705228b05bf399256140686eb9c78fd54d54d
+edc-data-manager @ git+https://github.com/botswana-harvard/edc-data-manager.git@693f50abc60a987cce985355c7718f44d757870d
+edc-device @ git+https://github.com/botswana-harvard/edc-device.git@867751966a4449ffd17719aad11bba6be2a52800
+edc-fabric @ git+https://github.com/botswana-harvard/edc-fabric.git@6e40f6f9ac0af6997be88cdb1842584fba3e0043
+edc-facility @ git+https://github.com/botswana-harvard/edc-facility.git@3cd82c74b28ec22d16c4d627eff1aaf311af4287
+edc-fieldsets @ git+https://github.com/botswana-harvard/edc-fieldsets.git@a11157ca78f69fe5c074f18f3073a849e0d2c82d
+edc-form-validators @ git+https://github.com/botswana-harvard/edc-form-validators.git@17e6eaf4cbef1b80ec76721f905a9d76a66d9fe9
+edc-identifier @ git+https://github.com/botswana-harvard/edc-identifier.git@c849cdb598d87082ab2008d7855bd1710e7023de
+edc-lab @ git+https://github.com/botswana-harvard/edc-lab.git@6cfecbc2032d00b4cb4cfd27a2550d3d0dd7524d
+edc-lab-dashboard @ git+https://github.com/botswana-harvard/edc-lab-dashboard.git@e1a3c27fa224e1e5c8cb6ba687aef90010cb70d7
+edc-label @ git+https://github.com/botswana-harvard/edc-label.git@8fe927071ac87507f5d85603cef6c4bbd8a508f9
+edc-list-data @ git+https://github.com/botswana-harvard/edc-list-data.git@cbe44107164e98027ec385319fa05bef811ea55d
+edc-locator @ git+https://github.com/botswana-harvard/edc-locator.git@607caa33dbd1ae445a45bc387a0ce1421bddd414
+edc-metadata @ git+https://github.com/botswana-harvard/edc-metadata.git@cc0cf2e47d7ba5d074423a49c910682e33503318
+edc-metadata-rules @ git+https://github.com/botswana-harvard/edc-metadata-rules.git@aaf50edb81fa3d201b471d93e154ecdd1cf5dd69
+edc-model-admin @ git+https://github.com/botswana-harvard/edc-model-admin.git@18da70d85b1bf921fa50f48d432bb4b8ab2523b4
+edc-model-wrapper @ git+https://github.com/botswana-harvard/edc-model-wrapper.git@814b9f85feceed246e378425ab6add8bba3b655f
+edc-navbar @ git+https://github.com/botswana-harvard/edc-navbar.git@a9171d06ed42d97461f9f8c66ca1b1630b38cdba
+edc-prn @ git+https://github.com/botswana-harvard/edc-prn.git@ff7d32cdfafc4ee225602931860c38c268148ae3
+edc-protocol @ git+https://github.com/botswana-harvard/edc-protocol.git@eb9bce9c4e832543c9171d1fabacd25b5db25f90
+edc-reference @ git+https://github.com/botswana-harvard/edc-reference.git@cf77d5877476342830366e91a3fe6cfd4758945e
+edc-registration @ git+https://github.com/botswana-harvard/edc-registration.git@3c44c67996e21d1c79c41b54befb44d6deba67ac
+edc-reports @ git+https://github.com/botswana-harvard/edc-reports.git@0e799c4d9673a94fcb6f42d1ed032c25e83f2858
+edc-rest @ git+https://github.com/botswana-harvard/edc-rest.git@0c2c5b9712d1c0be0ff35c5bf73d1f8789503993
+edc-search @ git+https://github.com/botswana-harvard/edc-search.git@9d60b5b606b903245fad0004e432279df52da776
+edc-sms @ git+https://github.com/botswana-harvard/edc-sms.git@488e609263bbccbeaa85da7a3adf49132304d323
+edc-subject-dashboard @ git+https://github.com/botswana-harvard/edc-subject-dashboard.git@3cda71c99d567e9d2ff56bdc7e7df229cfa9a908
+edc-sync @ git+https://github.com/botswana-harvard/edc-sync@eb2698d908c8d5307f13758b459c60eb18f16be9
+edc-sync-files @ git+https://github.com/botswana-harvard/edc-sync-files@f7bc359ecf7b6dd0689c83e900b0d7cef63f6f6b
+edc-timepoint @ git+https://github.com/botswana-harvard/edc-timepoint.git@2231996b42606a422ef4763c3ab388cddf38abbe
+edc-utils==0.3.20
+edc-visit-schedule @ git+https://github.com/botswana-harvard/edc-visit-schedule.git@71588bc1e9f1e5218ab524940b11c4ec406fee9f
+edc-visit-tracking @ git+https://github.com/botswana-harvard/edc-visit-tracking.git@61f7ccd1ce3f4b078a389b844029ef1263469ec2
+executing==1.2.0
+Fabric3==1.14.post1
+Faker==19.0.0
+fastjsonschema==2.18.0
+fqdn==1.5.1
+funcy==1.18
+gitdb==4.0.10
+GitPython==3.1.32
+html5lib==1.1
+hurry.filesize==0.9
+idna==3.4
+ipykernel==6.25.0
+ipython==8.14.0
+ipython-genutils==0.2.0
+ipywidgets==8.1.0
+isoduration==20.11.0
+jedi==0.18.2
+Jinja2==3.1.2
+json5==0.9.14
+jsonpickle==3.0.1
+jsonpointer==2.4
+jsonschema==4.18.6
+jsonschema-specifications==2023.7.1
+jupyter==1.0.0
+jupyter-console==6.6.3
+jupyter-events==0.7.0
+jupyter-lsp==2.2.0
+jupyter_client==8.3.0
+jupyter_core==5.3.1
+jupyter_server==2.7.0
+jupyter_server_terminals==0.4.4
+jupyterlab==4.0.4
+jupyterlab-pygments==0.2.2
+jupyterlab-widgets==3.0.8
+jupyterlab_server==2.24.0
+lxml==4.9.3
+MarkupSafe==2.1.3
+matplotlib-inline==0.1.6
+mistune==3.0.1
+model-mommy==2.0.0
+mysqlclient==2.2.0
+nbclient==0.8.0
+nbconvert==7.7.3
+nbformat==5.9.2
+nest-asyncio==1.5.7
+notebook==6.4.10
+notebook_shim==0.2.3
+oscrypto==1.3.0
+overrides==7.3.1
+packaging==23.1
+pandocfilters==1.5.0
+paramiko==2.12.0
+parso==0.8.3
+pexpect==4.8.0
+pickleshare==0.7.5
+Pillow==10.0.0
+platformdirs==3.10.0
+potlako-dashboard @ git+https://github.com/potlako-plus/potlako-dashboard.git@04095750d006cfbf5ff973e439a77ab7d721ded0
+potlako-follow @ git+https://github.com/potlako-plus/potlako-follow.git@4172c2da06dd1aa1d4cdd836b3af2c2672f87949
+potlako-metadata-rules @ git+https://github.com/potlako-plus/potlako-metadata-rules.git@e4b5037f1a19b811a93812835be9b679eae1de0c
+potlako-prn @ git+https://github.com/potlako-plus/potlako-prn.git@e1359a1db0103fe888073b55cf3a1f3cdaf04686
+potlako-reference @ git+https://github.com/potlako-plus/potlako-reference.git@cd21c53c7040b35c6e474f4d40128dbdcc28e26d
+potlako-reports @ git+https://github.com/potlako-plus/potlako-reports.git@a4d7631d925b6e61a36bb5c2f80f9f540c5019f8
+potlako-rest-api @ git+https://github.com/potlako-plus/potlako-rest-api.git@dc0e84b89c7ebb0be1b590f90a7f3d4328ce0e27
+potlako-subject @ git+https://github.com/potlako-plus/potlako-subject.git@2cca01273c5e5a54f35c90536705a7c641e065bf
+potlako-validations @ git+https://github.com/potlako-plus/potlako-validations.git@bf2691696667c5b7556e349c3b6948f1503804e6
+potlako-visit-schedule @ git+https://github.com/potlako-plus/potlako-visit-schedule.git@a27ce4b6b037e2a5eb3306f8dd61bb5eb181671a
+prometheus-client==0.17.1
+prompt-toolkit==3.0.39
+psutil==5.9.5
+ptyprocess==0.7.0
+pure-eval==0.2.2
+pycparser==2.21
+pycryptodome==3.18.0
+pycups==2.0.1
+Pygments==2.15.1
+pyHanko==0.19.0
+pyhanko-certvalidator==0.23.0
+PyMySQL==1.1.0
+PyNaCl==1.5.0
+pypdf==3.12.1
+PyPDF2==3.0.1
+pypng==0.20220715.0
+python-bidi==0.4.2
+python-dateutil==2.8.2
+python-json-logger==2.0.7
+python-memcached==1.59
+pytz==2023.3
+PyYAML==6.0
+pyzmq==25.1.0
+qrcode==7.4.2
+qtconsole==5.4.3
+QtPy==2.3.1
+redis==3.5.3
+referencing==0.30.1
+reportlab==3.6.13
+requests==2.31.0
+rfc3339-validator==0.1.4
+rfc3986-validator==0.1.1
+rpds-py==0.9.2
+Send2Trash==1.8.2
+six==1.16.0
+smmap==5.0.0
+sniffio==1.3.0
+soupsieve==2.4.1
+sqlparse==0.4.4
+stack-data==0.6.2
+svglib==1.5.1
+terminado==0.17.1
+tinycss2==1.2.1
+toolz==0.12.0
+tornado==6.3.2
+tqdm==4.65.0
+traitlets==5.9.0
+typing_extensions==4.7.1
+tzlocal==5.0.1
+Unipath==1.1
+uri-template==1.3.0
+uritools==4.0.1
+urllib3==2.0.3
+watchdog==3.0.0
+wcwidth==0.2.6
+webcolors==1.13
+webencodings==0.5.1
+websocket-client==1.6.1
+widgetsnbextension==4.0.8
+xhtml2pdf==0.2.11
+xlwt==1.3.0
