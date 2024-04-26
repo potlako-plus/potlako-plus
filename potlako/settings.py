@@ -37,10 +37,10 @@ INDEX_PAGE = 'potlako-plus.bhp.org.bw:8000'
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'o(^0$9zu2w5eby-^x&dd441d(@*#(+($can2uomfq%o(@p-fm+'
 
-#8KEY_PATH = os.path.join(BASE_DIR, 'crypto_fields')
+KEY_PATH = os.path.join(ETC_DIR, 'crypto_fields')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 OFFLINE = False
 
@@ -178,7 +178,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': DB_NAME,
         'USER': DB_USER,
-        'PASSWORD': '',
+        'PASSWORD': DB_PASSWORD,
         'HOST': HOST,  # Or an IP Address that your DB is hosted on
         'PORT': PORT,
         }
